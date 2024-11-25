@@ -244,17 +244,6 @@ int main() {
     std::transform(starting_point.begin(), starting_point.end(), starting_point.begin(), ::toupper);
     std::transform(destination.begin(), destination.end(), destination.begin(), ::toupper);
 
-    // flights.add_flight(Flight("TEST", "AF", "CDG", "NCE", "10:10", "12:15", 210.89));
-    // flights.add_flight(Flight("TES1", "AF", "CDG", "NCE", "17:10", "19:15", 210.89));
-    // flights.add_flight(Flight("TORO", "AI", "TRN", "CPH", "06:35", "09:00", 100.09));
-    // flights.add_flight(Flight("TOR1", "AI", "TRN", "EWR", "19:35", "23:00", 100.09));
-    // flights.add_flight(Flight("EILA", "AI", "CPH", "TRN", "10:00", "12:25", 75.89));
-    // flights.add_flight(Flight("BLAH", "AF", "CDG", "EWR", "17:00", "23:59", 634.75));
-    // flights.add_flight(Flight("BLA1", "AF", "CDG", "TRN", "17:00", "18:00", 634.75));
-    // flights.add_flight(Flight("TAAA", "AF", "NCE", "CDG", "14:00", "16:30", 200.35));
-    // flights.add_flight(Flight("TAA1", "AF", "NCE", "EWR", "09:00", "15:00", 600.98));
-    // flights.add_flight(Flight("TAA2", "AF", "NCE", "EWR", "19:50", "23:50", 501.98));
-
     TourCalculator tc(flights);
 
     int i=0;
